@@ -93,23 +93,32 @@ button.discord-button {
     left: 410px;
 }
 .zagolovok {
-    margin: 50px 0 0 520px;
-    text-shadow: 1px 1px 0.1px black;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
+    margin: 50px 0 0 545px;
     color: rgb(75, 75, 255);
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
 }
 .text {
     max-width: 500px;
-    text-shadow: 0 0 0.4px #000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    margin: 70px 0 0 520px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 65px 0 0 520px;
     font-size: 30px;
     color: rgb(109, 109, 214);
 }
-
-body{
-	background-color: #82aaff11;
+.bottom-bg {
+    background-color: rgba(132, 132, 245, 0.226);
+    position:absolute;
+    bottom: -50px;
+    height: 100px;
+    width: 10000px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(85, 85, 206);
+    font-weight: bold;
 }
-1
+html {
+    overflow:  hidden;
+}
